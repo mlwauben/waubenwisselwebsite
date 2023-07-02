@@ -64,9 +64,9 @@
     font-weight: 100;
     line-height: 25px;
 }
-button{
+.downloads a{
     width: 200px;
-    padding: 15px 0;
+    padding: 15px 5px;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
@@ -77,20 +77,19 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
+    color: #fff;
 }
 span{
     background: #009688;
     height: 100%;
-    width: 0;
+    width: 100%;
     border-radius: 25px;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
 }
-button:hover span{
-    width: 100%;
-}
-button:hover{
-    border: none;
+.downloads a:hover span{
+    width: 0;
 }
